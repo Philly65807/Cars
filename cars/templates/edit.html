@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+ <h2> Edit</h2>
+ <div class="col-md-6">
+<form a="" method="post" enctype="multipart/form-data">
+               {% csrf_token %}
+
+            <input value="model" type="text" placeholder="Name" class="form-control" required> <br>
+
+            <input name="make" type= "text" placeholder ="Name" class="form-control" required> <br>
+
+            <input name="style" type="text" placeholder="Name" class="form-control" required> <br>
+
+            <input name="year" type="number" placeholder="Number" class="form-control" required> <br>
+
+            <input name="condition" type="text" placeholder="Name" class="form-control" required> <br>
+            
+     <input name="price" type="number" class="form-control" required> <br>
+
+    <input type="submit" value="save" class="btn btn-success">
+
+
+ </form>
+     </div>
+</body>
+</html>

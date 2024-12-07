@@ -1,0 +1,945 @@
+{% load static %}
+<link rel="stylesheet" href="{% static 'css/style.css' %}">
+<script src="{% static 'js/owl.carousel.min.js' %}"></script>
+<!doctype html>
+<html class="no-js" lang="en">
+
+    <head>
+        <!-- meta data -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+        <!--font-family-->
+		<link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+		<link href="https://fonts.googleapis.com/css?family=Rufina:400,700" rel="stylesheet">
+        
+        <!-- title of site -->
+        <title>CARVILLA</title>
+
+        <!-- For favicon png -->
+		<link rel="shortcut icon" type="image/icon" href="{% static 'assets/logo/favicon.png' %}"/>
+       
+        <!--font-awesome.min.css-->
+        <link rel="stylesheet" href="{% static 'assets/css/font-awesome.min.css' %}">
+
+        <!--linear icon css-->
+		<link rel="stylesheet" href="{% static 'assets/css/linearicons.css' %}">
+
+        <!--flaticon.css-->
+		<link rel="stylesheet" href="{% static 'assets/css/flaticon.css' %}">
+
+		<!--animate.css-->
+        <link rel="stylesheet" href="{% static 'assets/css/animate.css' %}">
+
+        <!--owl.carousel.css-->
+        <link rel="stylesheet" href="{% static 'assets/css/owl.carousel.min.css' %}">
+		<link rel="stylesheet" href="{% static 'assets/css/owl.theme.default.min.css' %}">
+		
+        <!--bootstrap.min.css-->
+        <link rel="stylesheet" href="{% static 'assets/css/bootstrap.min.css' %}">
+		
+		<!-- bootsnav -->
+		<link rel="stylesheet" href="{% static 'assets/css/bootsnav.css' %}" >	
+        
+        <!--style.css-->
+        <link rel="stylesheet" href="{% static 'assets/css/style.css' %}">
+        
+        <!--responsive.css-->
+        <link rel="stylesheet" href="{% static 'assets/css/responsive.css' %}">
+        
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		
+        <!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+			<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+    </head>
+	
+	<body>
+		<!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+	
+		<!--welcome-hero start -->
+		<section id="home" class="welcome-hero">
+
+			<!-- top-area Start -->
+			<div class="top-area">
+				<div class="header-area">
+					<!-- Start Navigation -->
+				    <nav class="navbar navbar-default bootsnav  navbar-sticky navbar-scrollspy"  data-minus-value-desktop="70" data-minus-value-mobile="55" data-speed="1000">
+
+				        <div class="container">
+
+				            <!-- Start Header Navigation -->
+				            <div class="navbar-header">
+				                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+				                    <i class="fa fa-bars"></i>
+				                </button>
+				                <a class="navbar-brand" href="index.html">carvilla<span></span></a>
+
+				            </div><!--/.navbar-header-->
+				            <!-- End Header Navigation -->
+
+				            <!-- Collect the nav links, forms, and other content for toggling -->
+				            <div class="collapse navbar-collapse menu-ui-design" id="navbar-menu">
+				                <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
+				                    <li class=" scroll active"><a href="#home">home</a></li>
+				                    <li class="scroll"><a href="#service">service</a></li>
+				                    <li class="scroll"><a href="#featured-cars">featured cars</a></li>
+				                    <li class="scroll"><a href="#new-cars">new cars</a></li>
+				                    <li class="scroll"><a href="#brand">brands</a></li>
+				                    <li class="scroll"><a href="#contact">contact</a></li>
+				                </ul><!--/.nav -->
+				            </div><!-- /.navbar-collapse -->
+				        </div><!--/.container-->
+				    </nav><!--/nav-->
+				    <!-- End Navigation -->
+				</div><!--/.header-area-->
+			    <div class="clearfix"></div>
+
+			</div><!-- /.top-area-->
+			<!-- top-area End -->
+
+			<div class="container">
+				<div class="welcome-hero-txt">
+					<h2>Chase The Horizon. Live The Dream.</h2>
+					<p>
+						Our cars are designed to fuel your passion for adventure and elevate your driving experience. Don’t just dream it—drive it!
+					</p>
+					<button class="welcome-btn" onclick="window.location.href='#'">contact us</button>
+				</div>
+			</div>
+
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="model-search-content">
+							<div class="row">
+								<div class="col-md-offset-1 col-md-2 col-sm-12">
+									<div class="single-model-search">
+										<h2>select year</h2>
+										<div class="model-select-icon">
+											<select class="form-control">
+
+											  	<option value="default">year</option><!-- /.option-->
+                                                
+                                                <option value="2024">2024</option><!-- /.option-->
+                                                
+                                                <option value="2023">2023</option><!-- /.option-->
+                                                
+                                                <option value="2022">2022</option><!-- /.option-->
+                                                
+                                                <option value="2021">2021</option><!-- /.option-->
+                                                
+                                                <option value="2020">2020</option><!-- /.option-->
+                                                
+                                                <option value="2019">2019</option><!-- /.option-->
+
+											  	<option value="2018">2018</option><!-- /.option-->
+
+											  	<option value="2017">2017</option><!-- /.option-->
+											  	<option value="2016">2016</option><!-- /.option-->
+
+											</select><!-- /.select-->
+										</div><!-- /.model-select-icon -->
+									</div>
+									<div class="single-model-search">
+										<h2>body style</h2>
+										<div class="model-select-icon">
+											<select class="form-control">
+
+											  	<option value="default">style</option><!-- /.option-->
+
+											  	<option value="Pickup Truck">Pickup Truck</option><!-- /.option-->
+
+											  	<option value="Sedan">Sedan</option><!-- /.option-->
+                                                
+											  	<option value="Roadster">Roadster</option><!-- /.option-->
+                                                
+                                                <option value="Electric Car">Electric Car</option><!-- /.option-->
+
+											  	<option value="Sports Car">Sports Car</option><!-- /.option-->
+                                                
+											  	<option value="Hatchback">Hatchback</option><!-- /.option-->
+
+
+											</select><!-- /.select-->
+										</div><!-- /.model-select-icon -->
+									</div>
+								</div>
+								<div class="col-md-offset-1 col-md-2 col-sm-12">
+									<div class="single-model-search">
+										<h2>select make</h2>
+										<div class="model-select-icon">
+											<select class="form-control">
+
+											  	<option value="default">make</option><!-- /.option-->
+
+											  	<option value="Toyota">Toyota</option><!-- /.option-->
+
+											  	<option value="Holden">Holden</option><!-- /.option-->
+                                                
+                                                <option value="Ford">Ford</option><!-- /.option-->
+
+											  	<option value="Honda">Honda</option><!-- /.option-->
+                                                
+                                                <option value="Volvo">Volvo</option><!-- /.option-->
+
+											  	<option value="Chevrolet">Chevrolet</option><!-- /.option-->
+                                                
+											  	<option value="Mercedes-Benz">Mercedes-Benz.</option><!-- /.option-->
+
+                                                
+											  	<option value="Dodge">Dodge.</option><!-- /.option-->
+
+                                                
+											  	<option value="Datsun">Datsun.</option><!-- /.option-->
+
+											</select><!-- /.select-->
+										</div><!-- /.model-select-icon -->
+									</div>
+									<div class="single-model-search">
+										<h2>car condition</h2>
+										<div class="model-select-icon">
+											<select class="form-control">
+
+											  	<option value="default">condition</option><!-- /.option-->
+
+											  	<option value="something">Brand New</option><!-- /.option-->
+
+											  	<option value="something">Slightly Used</option><!-- /.option-->
+											  	<option value="something">Old</option><!-- /.option-->
+
+											</select><!-- /.select-->
+										</div><!-- /.model-select-icon -->
+									</div>
+								</div>
+								<div class="col-md-offset-1 col-md-2 col-sm-12">
+									<div class="single-model-search">
+										<h2>select model</h2>
+										<div class="model-select-icon">
+											<select class="form-control">
+
+											  	<option value="default">model</option><!-- /.option-->
+
+											  	<option value="Honda Accord">Honda Accord</option><!-- /.option-->
+                                                
+                                                	<option value="Commodore">Commodore</option><!-- /.option-->
+
+											  	<option value="Toyota Camry">Toyota Camry</option><!-- /.option-->
+                                                
+                                                <option value="Corvette">Corvette</option><!-- /.option--> 
+                                              
+											  	<option value="Hyundai Sonata">Hyundai Sonata</option><!-- /.option-->
+                                                
+                                                <option value="Acura ADX">Acura ADX</option><!-- /.option-->
+
+											  	<option value="Nissan Rogue">Nissan Rogue</option><!-- /.option-->
+                                                
+											  	<option value="Ford Explorer">Ford Explorer</option><!-- /.option-->
+                                                
+                                                <option value="Volkswagen Golf">Volkswagen Golf</option><!-- /.option-->
+
+											  	<option value="Ford Fiesta">Ford Fiesta</option><!-- /.option-->
+                                                
+											  	<option value="Mazda 3">Mazda 3</option><!-- /.option-->
+
+											</select><!-- /.select-->
+										</div><!-- /.model-select-icon -->
+									</div>
+									<div class="single-model-search">
+										<h2>select price</h2>
+										<div class="model-select-icon">
+											<select class="form-control">
+
+											  	<option value="default">price</option><!-- /.option-->
+
+											  	<option value=">$49,000">>$49,000</option><!-- /.option-->
+
+											  	<option value="$30,000-$48,000">$30,000-$48,000</option><!-- /.option-->
+                                                
+											  	<option value="$10,000-$30,000">$10,000-$30,000</option><!-- /.option-->
+                                                
+                                                <option value="<$10,000"><&10,000</option><!-- /.option-->
+
+											</select><!-- /.select-->
+										</div><!-- /.model-select-icon -->
+									</div>
+								</div>
+								<div class="col-md-2 col-sm-12">
+									<div class="single-model-search text-center">
+										<button class="welcome-btn model-search-btn" onclick="window.location.href='#'">
+											search
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</section><!--/.welcome-hero-->
+		<!--welcome-hero end -->
+
+		<!--service start -->
+		<section id="service" class="service">
+			<div class="container">
+				<div class="service-content">
+					<div class="row">
+						<div class="col-md-4 col-sm-6">
+							<div class="single-service-item">
+								<div class="single-service-icon">
+									<i class="flaticon-car"></i>
+								</div>
+								<h2><a href="#">Largest<span> Car</span> Dealership</a></h2>
+								<p>
+									At Carvilla, we pride ourselves in being the largest and most trusted car dealership in the world. With an extensive inventory of both new and pre-owned vehicles, we offer a vast selection to meet every need and budget. Our dealership provides unparalleled customer service, with experienced sales professionals ready to guide you through your purchase journey, ensuring you find the perfect vehicle. Visit us today and experience the largest variety, exceptional deals, and customer-focused service that sets us apart from the rest.
+.  
+								</p>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6">
+							<div class="single-service-item">
+								<div class="single-service-icon">
+									<i class="flaticon-car-repair"></i>
+								</div>
+								<h2><a href="#">Unlimited Repair Warranty</a></h2>
+								<p>
+									Say goodbye to unexpected repair costs and enjoy peace of mind knowing that you’re covered under any circumstances, from routine maintenance to unforeseen mechanical issues. Our Unlimited Warranty is designed to save you money and provide unbeatable value, all while keeping your car running smoothly for years to come. With no mileage or time limits, you can drive with confidence, knowing that we’ve got you covered every step of the way. 
+								</p>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6">
+							<div class="single-service-item">
+								<div class="single-service-icon">
+									<i class="flaticon-car-1"></i>
+								</div>
+								<h2><a href="#">Insurance Support</a></h2>
+								<p>
+									We offer comprehensive insurance support tailored to your needs. Our expert team will guide you through the various coverage options, ensuring you get the protection you need at a price that fits your budget. We partner with top insurance providers to offer competitive rates and seamless integration. With our insurance support, you can drive off knowing your new vehicle is fully protected, every step of the way.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div><!--/.container-->
+            
+            <form action="#" class="form-search d-flex align-items-stretch mb-3" data-aos="fade-up" data-aos-delay="200">
+              <input type="text" class="form-control" placeholder="Your ZIP code or City. e.g. New York">
+              <button type="submit" class="btn btn-primary">Search</button>
+            </form>
+          
+            <div class="row gy-4" data-aos="fade-up" data-aos-delay="300">
+
+              <div class="col-lg-3 col-6">
+                <div class="stats-item text-center w-100 h-100">
+                  <span data-purecounter-start="0" data-purecounter-end="41500" data-purecounter-duration="0" class="purecounter">41500</span>
+                  <p>Clients</p>
+                </div>
+              </div><!-- End Stats Item -->
+
+              <div class="col-lg-3 col-6">
+                <div class="stats-item text-center w-100 h-100">
+                  <span data-purecounter-start="0" data-purecounter-end="800" data-purecounter-duration="0" class="purecounter">800</span>
+                  <p>Projects</p>
+                </div>
+              </div><!-- End Stats Item -->
+
+              <div class="col-lg-3 col-6">
+                <div class="stats-item text-center w-100 h-100">
+                  <span data-purecounter-start="0" data-purecounter-end="1453" data-purecounter-duration="0" class="purecounter">1453</span>
+                  <p>Support</p>
+                </div>
+              </div><!-- End Stats Item -->
+
+              <div class="col-lg-3 col-6">
+                <div class="stats-item text-center w-100 h-100">
+                  <span data-purecounter-start="0" data-purecounter-end="2500" data-purecounter-duration="0" class="purecounter">2500</span>
+                  <p>Workers</p>
+                </div>
+              </div><!-- End Stats Item -->
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-5 order-1 order-lg-2 hero-img" data-aos="zoom-out">
+            <img src="assets/img/hero-img.svg" class="img-fluid mb-3 mb-lg-0" alt="">
+          </div>
+
+        </div>
+      </div>
+
+            </div>
+
+          </div>
+
+		</section><!--/.service-->
+		<!--service end-->
+
+		<!--new-cars start -->
+		<section id="new-cars" class="new-cars">
+			<div class="container">
+				<div class="section-header">
+					<p>checkout <span>the</span> latest cars</p>
+					<h2>newest cars</h2>
+				</div><!--/.section-header-->
+				<div class="new-cars-content">
+					<div class="owl-carousel owl-theme" id="new-cars-carousel">
+						<div class="new-cars-item">
+							<div class="single-new-cars-item">
+								<div class="row">
+									<div class="col-md-7 col-sm-12">
+										<div class="new-cars-img">
+											<img src="{% static 'assets/images/new-cars-model/ncm1.png' %}" alt="img'"/>
+										</div><!--/.new-cars-img-->
+									</div>
+									<div class="col-md-5 col-sm-12">
+										<div class="new-cars-txt">
+											<h2><a href="#">chevrolet camaro <span> za100</span></a></h2>
+											<p>
+												The Chevrolet Camaro ZA100 is a powerhouse of performance and bold design, blending American muscle with cutting-edge technology. This iconic muscle car features a high-performance engine, delivering unmatched speed and exhilarating acceleration. With its aggressive stance, aerodynamic lines, and unmistakable growl, the Camaro ZA100 commands attention on every road. Equipped with precision handling and sharp steering, it offers an exceptional driving experience, whether on the track or the open road. 
+											</p>
+											<p class="new-cars-para2">
+												Inside, the Camaro ZA100 is designed for comfort, with a driver-focused cockpit and premium materials. For raw power and refined luxury, the Chevrolet Camaro ZA100 is the ultimate expression of automotive performance. 
+											</p>
+											<button class="welcome-btn new-cars-btn" onclick="window.location.href='#'">
+												view details
+											</button>
+										</div><!--/.new-cars-txt-->	
+									</div><!--/.col-->
+								</div><!--/.row-->
+							</div><!--/.single-new-cars-item-->
+						</div><!--/.new-cars-item-->
+						<div class="new-cars-item">
+							<div class="single-new-cars-item">
+								<div class="row">
+									<div class="col-md-7 col-sm-12">
+										<div class="new-cars-img">
+											<img src="{% static 'assets/images/new-cars-model/ncm2.png' %}" alt="img"/>
+										</div><!--/.new-cars-img-->
+									</div>
+									<div class="col-md-5 col-sm-12">
+										<div class="new-cars-txt">
+											<h2><a href="#">BMW series-3 wagon</a></h2>
+											<p>
+												Experience the perfect blend of luxury, performance, and practicality with the BMW 3 Series Wagon. Designed for those who demand style and versatility, this sports wagon combines BMW's iconic driving dynamics with exceptional cargo space and advanced technology. The 3 Series Wagon is equipped with cutting-edge features, ensuring a smooth and comfortable ride. Its sleek design and well-crafted interior offer a refined driving experience, whether you’re navigating city streets or taking a road trip. 
+											</p>
+											<p class="new-cars-para2">
+												With superior handling, efficient performance, and a focus on driver comfort, the BMW 3 Series Wagon is the ideal choice for those seeking both style and functionality in one luxurious package.  
+											</p>
+											<button class="welcome-btn new-cars-btn" onclick="window.location.href='#'">
+												view details
+											</button>
+										</div><!--/.new-cars-txt-->	
+									</div><!--/.col-->
+								</div><!--/.row-->	
+							</div><!--/.single-new-cars-item-->
+						</div><!--/.new-cars-item-->
+						<div class="new-cars-item">
+							<div class="single-new-cars-item">
+								<div class="row">
+									<div class="col-md-7 col-sm-12">
+										<div class="new-cars-img">
+											<img src="{% static 'assets/images/new-cars-model/ncm3.png' %}" alt="img"/>
+										</div><!--/.new-cars-img-->
+									</div>
+									<div class="col-md-5 col-sm-12">
+										<div class="new-cars-txt">
+											<h2><a href="#">ferrari 488 superfast</a></h2>
+											<p>
+												The Ferrari 488 Pista is an exhilarating fusion of performance, design, and innovation. Powered by the most potent V8 engine in Ferrari's history, it delivers an unparalleled driving experience with blistering speed and precision handling. This special-series sports car is engineered to thrill, featuring cutting-edge aerodynamics, advanced suspension systems, and lightweight construction to optimize performance on both road and track. Its sleek, aggressive styling reflects its racing heritage, while the cabin is a blend of luxury and technology, designed for comfort and control.
+											</p>
+											<p class="new-cars-para2">
+												 The Ferrari 488 Pista promises not just a car, but an adrenaline-charged journey that captures the essence of Ferrari's commitment to excellence. 
+											</p>
+											<button class="welcome-btn new-cars-btn" onclick="window.location.href='#'">
+												view details
+											</button>
+										</div><!--/.new-cars-txt-->	
+									</div><!--/.col-->
+								</div><!--/.row-->
+							</div><!--/.single-new-cars-item-->
+						</div><!--/.new-cars-item-->
+					</div><!--/#new-cars-carousel-->
+				</div><!--/.new-cars-content-->
+			</div><!--/.container-->
+
+		</section><!--/.new-cars-->
+		<!--new-cars end -->
+
+		<!--featured-cars start -->
+		<section id="featured-cars" class="featured-cars">
+			<div class="container">
+				<div class="section-header">
+					<p>checkout <span>the</span> featured cars</p>
+					<h2>featured cars</h2>
+				</div><!--/.section-header-->
+				<div class="featured-cars-content">
+					<div class="row">
+						<div class="col-lg-3 col-md-4 col-sm-6">
+							<div class="single-featured-cars">
+								<div class="featured-img-box">
+									<div class="featured-cars-img">
+										<img src="{% static 'assets/images/featured-cars/fc1.png' %}" alt="cars">
+									</div>
+									<div class="featured-model-info">
+										<p>
+											model: 2024
+											<span class="featured-mi-span"> 3100 mi</span> 
+											<span class="featured-hp-span"> 240HP</span>
+											 automatic
+										</p>
+									</div>
+								</div>
+								<div class="featured-cars-txt">
+									<h2><a href="#">BMW 6-series gran coupe</a></h2>
+									<h3>$89,395</h3>
+									<p>
+										Powered by TwinPower Turbo Engine, the BMW 6 Series Gran Coupe combines dynamic performance with luxurious design. Inside, the 6 Series Gran Coupe offers a spacious, premium cabin adorned with top-quality materials, advanced infotainment, and driver-assistance systems. 
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-4 col-sm-6">
+							<div class="single-featured-cars">
+								<div class="featured-img-box">
+									<div class="featured-cars-img">
+										<img src="{% static 'assets/images/featured-cars/fc2.png' %}" alt="cars">
+									</div>
+									<div class="featured-model-info">
+										<p>
+											model: 2023
+											<span class="featured-mi-span"> 3100 mi</span> 
+											<span class="featured-hp-span"> 240HP</span>
+											 automatic
+										</p>
+									</div>
+								</div>
+								<div class="featured-cars-txt">
+									<h2><a href="#">chevrolet camaro <span>wmv20</span></a></h2>
+									<h3>$66,575</h3>
+									<p>
+										With a 2.0L turbocharged engine delivering 275 horsepower and a 6-speed manual transmission for a dynamic driving experience, this  car is equipped with a performance suspension system, including magnetic ride control and a limited-slip differential, providing excellent handling and stability.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-4 col-sm-6">
+							<div class="single-featured-cars">
+								<div class="featured-img-box">
+									<div class="featured-cars-img">
+										<img src="{% static 'assets/images/featured-cars/fc3.png' %}" alt="cars">
+									</div>
+									<div class="featured-model-info">
+										<p>
+											model: 2022
+											<span class="featured-mi-span"> 3100 mi</span> 
+											<span class="featured-hp-span"> 240HP</span>
+											 automatic
+										</p>
+									</div>
+								</div>
+								<div class="featured-cars-txt">
+									<h2><a href="#">lamborghini <span>v520</span></a></h2>
+									<h3>$125,250</h3>
+									<p>
+										The Lamborghini V520, a part of the Gallardo lineup, features a 5.0L V10 engine delivering 520 hp. The car is equipped with high-grade brakes, a robust drivetrain, and advanced ignition systems. Genuine and OEM parts, such as bumpers, bonnets, and gaskets, are available to match the stringent standards of Lamborghini. 
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-4 col-sm-6">
+							<div class="single-featured-cars">
+								<div class="featured-img-box">
+									<div class="featured-cars-img">
+										<img src="{% static 'assets/images/featured-cars/fc4.png' %}" alt="cars">
+									</div>
+									<div class="featured-model-info">
+										<p>
+											model: 2021
+											<span class="featured-mi-span"> 3100 mi</span> 
+											<span class="featured-hp-span"> 240HP</span>
+											 automatic
+										</p>
+									</div>
+								</div>
+								<div class="featured-cars-txt">
+									<h2><a href="#">audi <span> a3</span> sedan</a></h2>
+									<h3>$95,500</h3>
+									<p>
+										The Audi A3 Sedan features carbon-finish exterior mirror housings and a sporty tailgate spoiler for dynamic accents. Sleek body lines and a bold grille add to its aerodynamic, premium appeal. It offers a responsive driving experience with efficient engine options and features like quattro all-wheel drive for optimal traction.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-3 col-md-4 col-sm-6">
+							<div class="single-featured-cars">
+								<div class="featured-img-box">
+									<div class="featured-cars-img">
+										<img src="{% static 'assets/images/featured-cars/fc4.png' %}" alt="cars">
+									</div>
+									<div class="featured-model-info">
+										<p>
+											model: 2020
+											<span class="featured-mi-span"> 3100 mi</span> 
+											<span class="featured-hp-span"> 240HP</span>
+											 automatic
+										</p>
+									</div>
+								</div>
+								<div class="featured-cars-txt">
+									<h2><a href="#">infiniti <span>z5</span></a></h2>
+									<h3>$36,850</h3>
+									<p>
+                                        This model is crafted with sleek aesthetics, a refined interior, and advanced features, reflecting Infiniti's philosophy of delivering luxurious and personalized experiences. The Z5 is an ideal choice for those who value elegance, comfort, and precision engineering, making every journey memorable. 
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-4 col-sm-6">
+							<div class="single-featured-cars">
+								<div class="featured-img-box">
+									<div class="featured-cars-img">
+										<img src="{% static 'assets/images/featured-cars/fc5.png' %}" alt="cars">
+									</div>
+									<div class="featured-model-info">
+										<p>
+											model: 2019
+											<span class="featured-mi-span"> 3100 mi</span> 
+											<span class="featured-hp-span"> 240HP</span>
+											 automatic
+										</p>
+									</div>
+								</div>
+								<div class="featured-cars-txt">
+									<h2><a href="#">porsche <span>718</span> cayman</a></h2>
+									<h3>$48,500</h3>
+									<p>
+										This model has turbocharged 4-cylinder or naturally aspirated inline 6-cylinder engines that provide a range of power outputs, suiting diverse driving preferences. It is also equipped with Porsche Stability Management (PSM) and an adaptive suspension system for exceptional handling and ride comfort.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-4 col-sm-6">
+							<div class="single-featured-cars">
+								<div class="featured-img-box">
+									<div class="featured-cars-img">
+										<img src="{% static 'assets/images/featured-cars/fc7.png' %}" alt="cars">
+									</div>
+									<div class="featured-model-info">
+										<p>
+											model: 2018
+											<span class="featured-mi-span"> 3100 mi</span> 
+											<span class="featured-hp-span"> 240HP</span>
+											 automatic
+										</p>
+									</div>
+								</div>
+								<div class="featured-cars-txt">
+									<h2><a href="#"><span>bmw 8-</span>series coupe</a></h2>
+									<h3>$56,000</h3>
+									<p>
+										This model combines high-performance engineering with advanced luxury features. It is available in various configurations, including the M8 model. With its Sleek design, luxurious interior, and advanced technology features, it appeals to those who value elegance and performance.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-4 col-sm-6">
+							<div class="single-featured-cars">
+								<div class="featured-img-box">
+									<div class="featured-cars-img">
+										<img src="{% static 'assets/images/featured-cars/fc8.png' %}" alt="cars">
+									</div>
+									<div class="featured-model-info">
+										<p>
+											model: 2017
+											<span class="featured-mi-span"> 3100 mi</span> 
+											<span class="featured-hp-span"> 240HP</span>
+											 automatic
+										</p>
+									</div>
+								</div>
+								<div class="featured-cars-txt">
+									<h2><a href="#">BMW <span> x</span>series-6</a></h2>
+									<h3>$75,800</h3>
+									<p>
+										It features a powerful BMW M TwinPower Turbo engine, offering exceptional driving dynamics and a smooth, comfortable ride. The vehicle is equipped with advanced technologies such as the xOffroad package and 8-speed Steptronic transmission, ensuring optimal performance on various terrains.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div><!--/.container-->
+
+		</section><!--/.featured-cars-->
+		<!--featured-cars end -->
+
+		<!-- clients-say strat -->
+		<section id="clients-say"  class="clients-say">
+			<div class="container">
+				<div class="section-header">
+					<h2>what our clients say</h2>
+				</div><!--/.section-header-->
+				<div class="row">
+					<div class="owl-carousel testimonial-carousel">
+						<div class="col-sm-3 col-xs-12">
+							<div class="single-testimonial-box">
+								<div class="testimonial-description">
+									<div class="testimonial-info">
+										<div class="testimonial-img">
+											<img src="{% static 'assets/images/clients/c1.png' %}" alt="image of clients person" />
+										</div><!--/.testimonial-img-->
+									</div><!--/.testimonial-info-->
+									<div class="testimonial-comment">
+										<p>
+											The dealership staff went above and beyond to ensure I was happy with my purchase. They explained every detail, and the service was truly exceptional.
+										</p>
+									</div><!--/.testimonial-comment-->
+									<div class="testimonial-person">
+										<h2><a href="#">Bravin McOuma</a></h2>
+										<h4>new york</h4>
+									</div><!--/.testimonial-person-->
+								</div><!--/.testimonial-description-->
+							</div><!--/.single-testimonial-box-->
+						</div><!--/.col-->
+						<div class="col-sm-3 col-xs-12">
+							<div class="single-testimonial-box">
+								<div class="testimonial-description">
+									<div class="testimonial-info">
+										<div class="testimonial-img">
+											<img src="{% static 'assets/images/clients/c2.png' %}" alt="image of clients person" />
+										</div><!--/.testimonial-img-->
+									</div><!--/.testimonial-info-->
+									<div class="testimonial-comment">
+										<p>
+											The team made the buying process quick and easy. I arrived late in the evening, and they still managed to get me a great deal in under an hour. Fantastic service! 
+										</p>
+									</div><!--/.testimonial-comment-->
+									<div class="testimonial-person">
+										<h2><a href="#">Harry Dustin</a></h2>
+										<h4>london</h4>
+									</div><!--/.testimonial-person-->
+								</div><!--/.testimonial-description-->
+							</div><!--/.single-testimonial-box-->
+						</div><!--/.col-->
+						<div class="col-sm-3 col-xs-12">
+							<div class="single-testimonial-box">
+								<div class="testimonial-description">
+									<div class="testimonial-info">
+										<div class="testimonial-img">
+											<img src="{% static 'assets/images/clients/c3.png' %}" alt="image of clients person" />
+										</div><!--/.testimonial-img-->
+									</div><!--/.testimonial-info-->
+									<div class="testimonial-comment">
+										<p>
+											This was the fastest and easiest car purchase I have ever experienced. The salesperson was knowledgeable and transparent, and I felt confident about my decision. Highly recommended!
+										</p>
+									</div><!--/.testimonial-comment-->
+									<div class="testimonial-person">
+										<h2><a href="#">Awino Lawi</a></h2>
+										<h4>washington</h4>
+									</div><!--/.testimonial-person-->
+								</div><!--/.testimonial-description-->
+							</div><!--/.single-testimonial-box-->
+						</div><!--/.col-->
+					</div><!--/.testimonial-carousel-->
+				</div><!--/.row-->
+			</div><!--/.container-->
+
+		</section><!--/.clients-say-->	
+		<!-- clients-say end -->
+
+		<!--brand strat -->
+		<section id="brand"  class="brand">
+			<div class="container">
+				<div class="brand-area">
+					<div class="owl-carousel owl-theme brand-item">
+						<div class="item">
+							<a href="#">
+								<img src="{% static 'assets/images/brand/br1.png' %}" alt="brand-image" />
+							</a>
+						</div><!--/.item-->
+						<div class="item">
+							<a href="#">
+								<img src="{% static 'assets/images/brand/br2.png' %}" alt="brand-image" />
+							</a>
+						</div><!--/.item-->
+						<div class="item">
+							<a href="#">
+								<img src="{% static 'assets/images/brand/br3.png' %}" alt="brand-image" />
+							</a>
+						</div><!--/.item-->
+						<div class="item">
+							<a href="#">
+								<img src="{% static 'assets/images/brand/br4.png' %}" alt="brand-image" />
+							</a>
+						</div><!--/.item-->
+
+						<div class="item">
+							<a href="#">
+								<img src="{% static 'assets/images/brand/br5.png' %}" alt="brand-image" />
+							</a>
+						</div><!--/.item-->
+
+						<div class="item">
+							<a href="#">
+								<img src="{% static 'assets/images/brand/br6.png' %}" alt="brand-image" />
+							</a>
+						</div><!--/.item-->
+					</div><!--/.owl-carousel-->
+				</div><!--/.clients-area-->
+
+			</div><!--/.container-->
+
+		</section><!--/brand-->	
+		<!--brand end -->
+
+		<!--blog start -->
+		<section id="blog" class="blog"></section><!--/.blog-->
+		<!--blog end -->
+
+		<!--contact start-->
+		<footer id="contact"  class="contact">
+			<div class="container">
+				<div class="footer-top">
+					<div class="row">
+						<div class="col-md-3 col-sm-6">
+							<div class="single-footer-widget">
+								<div class="footer-logo">
+									<a href="index.html">carvilla</a>
+								</div>
+								<p>
+									Connect with us so we can guide and see you drive to your dreams.
+								</p>
+								<div class="footer-contact">
+									<p>info@carvilla.com</p>
+									<p>+1 (885) 2563154554</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-2 col-sm-6">
+							<div class="single-footer-widget">
+								<h2>about devloon</h2>
+								<ul>
+									<li><a href="#">about us</a></li>
+									<li><a href="#">career</a></li>
+									<li><a href="#">terms <span> of service</span></a></li>
+									<li><a href="#">privacy policy</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-3 col-xs-12">
+							<div class="single-footer-widget">
+								<h2>top brands</h2>
+								<div class="row">
+									<div class="col-md-7 col-xs-6">
+										<ul>
+											<li><a href="#">BMW</a></li>
+											<li><a href="#">Lamborghini</a></li>
+											<li><a href="#">Camaro</a></li>
+											<li><a href="#">Audi</a></li>
+											<li><a href="#">Infiniti</a></li>
+											<li><a href="#">Nissan</a></li>
+										</ul>
+									</div>
+									<div class="col-md-5 col-xs-6">
+										<ul>
+											<li><a href="#">Ferrari</a></li>
+											<li><a href="#">Porsche</a></li>
+											<li><a href="#">Land Rover</a></li>
+											<li><a href="#">Aston Martin</a></li>
+											<li><a href="#">Mercedes</a></li>
+											<li><a href="#">Opel</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-offset-1 col-md-3 col-sm-6">
+							<div class="single-footer-widget">
+								<h2>news letter</h2>
+								<div class="footer-newsletter">
+									<p>
+										Subscribe to get latest news  update and informations
+									</p>
+								</div>
+								<div class="hm-foot-email">
+									<div class="foot-email-box">
+										<input type="text" class="form-control" placeholder="Add Email">
+									</div><!--/.foot-email-box-->
+									<div class="foot-email-subscribe">
+										<span><i class="fa fa-arrow-right"></i></span>
+									</div><!--/.foot-email-icon-->
+								</div><!--/.hm-foot-email-->
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="footer-copyright">
+					<div class="row">
+						<div class="col-sm-6">
+							<p>
+								Copyright <a href="https://abluereverie.blogspot.com/">@Philly 2024</a>.
+							</p><!--/p-->
+						</div>
+						<div class="col-sm-6">
+							<div class="footer-social">
+								<a href="#"><i class="fa fa-facebook"></i></a>	
+								<a href="#"><i class="fa fa-instagram"></i></a>
+								<a href="#"><i class="fa fa-linkedin"></i></a>
+									
+							</div>
+						</div>
+					</div>
+				</div><!--/.footer-copyright-->
+			</div><!--/.container-->
+
+			<div id="scroll-Top">
+				<div class="return-to-top">
+					<i class="fa fa-angle-up " id="scroll-top" data-toggle="tooltip" data-placement="top" title="" data-original-title="Back to Top" aria-hidden="true"></i>
+				</div>
+				
+			</div><!--/.scroll-Top-->
+			
+        </footer><!--/.contact-->
+		<!--contact end-->
+
+
+		
+		<!-- Include all js compiled plugins (below), or include individual files as needed -->
+
+		<script src="{% static 'assets/js/jquery.js' %}"></script>
+        
+        <!--modernizr.min.js-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+		
+		<!--bootstrap.min.js-->
+        <script src="{% static 'assets/js/bootstrap.min.js' %}"></script>
+		
+		<!-- bootsnav js -->
+		<script src="{% static 'assets/js/bootsnav.js' %}"></script>
+
+		<!--owl.carousel.js-->
+        <script src="{% static 'assets/js/owl.carousel.min.js' %}"></script>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+
+        <!--Custom JS-->
+        <script src="{% static 'assets/js/custom.js' %}"></script>
+        
+    </body>
+	
+</html>
+
+{% block content %}
+{% endblock %}
