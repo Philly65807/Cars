@@ -10,9 +10,13 @@ from .models import Cars
 def searchBar(request):
     query = request.GET.get('query')
     if query:
-        cars = Cars.objects.filter(name__icontains=query)
+        cars = Cars.objects.filter(price__icontains=query)
     results = Cars.objects.filter(field_name__icontains=query)
-    return render(request, 'search_results.html', {'results': results})
+    return render(request, 'searchbar.html', {'results': results})
+
+    else:
+    print ("no information to show")
+        return request (request)
 
 
 # Create your views here.
