@@ -12,7 +12,10 @@ urlpatterns=[
 
     path('admin/', admin.site.urls),
 
-    path('search/', search, name='search'),
+path('search/', views.search, name='search')
+
+
+
 ]
 
     # Add other paths here
