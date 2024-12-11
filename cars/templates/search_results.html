@@ -1,27 +1,10 @@
-
-{% if results %}
-    <ul>
-        {% for result in results %}
-            <li>{{ result.field_name }}</li>
-        {% endfor %}
-    </ul>
-{% else %}
-    <p>No results found.</p>
-{% endif %}
-
-<form action="{% url 'search_cars' %}" method="GET">
-    <input type="text" name="search" placeholder="Search">
+<form method="get" action="{% url 'search' %}">
+    <input type="text" name="car" value="{{ query }}" placeholder="Search...">
     <button type="submit">Search</button>
 </form>
-
-<form method="get" action="">
-    <input type="text" name="car" placeholder="Search...">
-    <button type="submit">Search</button>
-</form>
-
 <ul>
-    {% for item in results %}
-        <li>{{ item.name }}: {{ item.description }}</li>
+    {% for result in results %}
+        <li>{{ result.name }} - ${{ result.price }}</li>
     {% empty %}
         <li>No results found.</li>
     {% endfor %}
